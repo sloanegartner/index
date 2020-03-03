@@ -1,0 +1,288 @@
+
+/* Navigation */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #cccccc;
+}
+
+nav {
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+}
+
+ul {
+	margin-left: 25px;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 100px;
+}
+
+ul li a {
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	color: #717C71;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	padding: 0 20px;
+}
+
+
+ul li a:hover {
+	color: #6b4984;
+}
+
+
+/* Home */
+
+body {
+	height: 100%
+	margin: 0;
+	padding: 0;
+	background: #f1f1f1;
+	font-family: 'EB Garamond', serif;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  color: #6b4984;
+  font-size: 3.5em;
+  letter-spacing: 30px;
+  padding: 15px;
+}
+
+hr {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: gray;
+}
+
+p {
+  	font-family: 'EB Garamond', serif;
+	color: rgba(97, 103, 113);
+	text-align: center;
+	margin: 10px;
+	font-size: 1.4em;
+	margin: 30px;
+}
+
+.hero-image{
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+	background: url(newyork.jpg) no-repeat center;
+	background-size : cover;
+} 
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.container h1{
+	font-size: 50px;
+	letter-spacing: 0.2em;
+	margin: 0;
+}
+
+.container h1 span{
+	border: 10px solid white;
+	padding: 6px 14px;
+	display: inline-block;
+	text-shadow: 5px 5px 15px #5a5c42;
+}
+
+.des {
+	margin: 20px;
+	display: block;
+	font-size: 20px;
+	text-shadow: 5px 5px 15px #5a5c42;
+}
+
+.btn {
+	color: #717C71;
+	padding: 10px 24px;
+	font-size: 20px;
+	text-decoration: none;
+	background: #f1f1f1;
+	border-radius: 25px;
+	transition: 0.3s all;
+}
+
+.btn:hover{
+	opacity: 0.8;
+}
+
+.purple{
+	color: #6b4984;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+figure {
+  float: left;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: none;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+/* Assignments */
+
+h4 {
+	font-family: 'EB Garamond', serif;
+	color: #5a5c42;
+	padding: 0px 75px 0 75px;
+	text-align: center;
+	font-size: 3em;
+}
+
+a {
+	color: #717C71;
+	font-weight: bold;
+}
+
+
+/* Statement */
+
+p  {
+  	font-family: 'EB Garamond', serif;
+	color: rgba(97, 103, 113);
+	text-align: center;
+	font-size: 25px;
+	padding: 10px 75px 10px 75px;
+}
+
+a {
+	color: #717C71;
+	font-weight: bold;
+}
+
+/* Portfolio */
+
+body {
+  color: rgba(97, 103, 113);
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+/* Contact */
+
+.wrapper {
+  margin: 100px auto 0;
+  width: 50%;
+  max-width: 680px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+ 
+.content {
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+  color: rgba(107, 73, 132);
+  letter-spacing: 5px;
+  line-height: 35px;
+  letter-spacing: 5px;
+}
+  
+.top-form,
+.middle-form,
+.bottom-form {
+  width: 100%;
+  min-height: 65px;
+  margin: 10px 0;
+}
+ 
+.form input[type="text"],
+.form textarea {
+  border: 2px solid #fff;
+  padding: 15px 5px;
+  outline: rgba(182, 172, 168);
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  font-family: 'EB Garamond', serif;
+}
+ 
+.form .label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  color: #6b4984; 
+}
+
+.top-form .inner-form {
+  width: 29.9%;
+  float: left;
+  margin-right: 5%;
+  color: #6b4984;
+}
+ 
+.top-form .inner-form:last-child {
+  margin-right: 0;
+}
+
+/* Footer */
+
+footer {
+	font-family: 'EB Garamond', serif;
+	color: rgba(97, 103, 113);
+	text-align: center;
+	margin: 10px;
+	margin-left: 10px;
+  	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	opacity: 0.5;
+}
+
+a:hover{
+	color: #717C71;
+}
+
+a {
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	color: #6b4984;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
